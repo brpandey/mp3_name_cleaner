@@ -6,7 +6,7 @@
 
  And to this day, I still love and use MP3s!  :sparkles:
 
- Here's a little side script I wrote over a few days in a young functional language called, Elixir, at a local Starbucks coffee shop to clean MP3 names.
+ Here's a little side script I wrote over a few days in a young functional language called [Elixir](http://elixir-lang.org/) at a local Starbucks coffee shop to clean MP3 file names.
 
 ## Description
 
@@ -14,9 +14,9 @@
 
  Cleans up mp3 file names given the assumptions:
  
- 1.  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
- 2.  The Artist names and Song names are generally first.
- 3.  The file contains a .mp3 suffix
+ - [x]  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
+ - [x]  The Artist names and Song names are generally first.
+ - [x]  The file contains a .mp3 suffix
 
  Does a non-destructive update copy of the original file set 
  with cleaned up names
