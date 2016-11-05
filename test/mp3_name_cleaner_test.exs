@@ -1,4 +1,8 @@
 defmodule MP3NameCleanerTest do
+  @moduledoc """
+  These tests are to show the functionality of the program
+  """
+
   use ExUnit.Case, async: true
 
   setup_all do
@@ -96,10 +100,11 @@ defmodule MP3NameCleanerTest do
       Map.get(map, "MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3")    
   end
 
-#  test "rename" do
-#    argv = ["--root", "/home/audiophile/Music/Hot MP3s/"]
-#     
-#    argv |> MP3NameCleaner.main
-#  end
+  @tag skip: "please specify proper root path before running"
+  test "rename" do
+    argv = ["--root", "/home/audiophile/Music/Hot MP3s/"]
+    
+    argv |> MP3NameCleaner.main
+  end
 
 end
