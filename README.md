@@ -1,8 +1,8 @@
 # MP3NameCleaner
 
- Many aeons ago I was the Content Ingestion Program Manager for the inaugural [AmazonMP3](http://www.amazonmp3.com) service setting up the music service with its first 2 million tracks over the course of a year.
+ Many aeons ago I was the Music Ingestion Program Manager for the inaugural [AmazonMP3](http://www.amazonmp3.com) service setting up the new music service with its first 2 million tracks over the course of a year.
  
- I worked with digital music aggregators (e.g. [CDBaby](http://www.cdbaby.com/), , Naxos, The Orchard), the big labels (e.g. Warner, Sony) to get this done.
+ I worked with digital music aggregators (e.g. [CDBaby](http://www.cdbaby.com/), Naxos, The Orchard), the big labels (e.g. Warner, Sony) to get this done.
 
  And to this day, I still love and use MP3s!  :sparkles:
 
@@ -10,22 +10,15 @@
 
 ## Description
 
- Straightforward script written in Elixir, using Elixir Streams, Enums, and Regexs
-
- Performs a non-destructive update copy of the original file set with cleaned up names
-
- Also provides support for title-casing, whitespace trimming, 
- extraneous info removal e.g. text in parens or brackets or curly braces
+ MP3NameCleaner is a straightforward script written in Elixir, using Elixir Streams, Enums, and Regexs.  It performs a non-destructive update copy of the original file set with cleaned up names.  It also provides support for title-casing, whitespace trimming, extraneous info removal e.g. text in parens or brackets or curly braces
 
  The script *cleans* up mp3 file names given the assumptions:
  
- - [x]  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
+ - [x]  The song info types e.g. ```Artist Name, Song Title, Album Name, Year``` are delimited by a hyphen
  - [x]  The Artist names and Song names are generally first.
- - [x]  The file contains a .mp3 suffix
+ - [x]  The file contains a ```.mp3``` suffix
 
- For example: 
-
- The names to the left of the arrow are uncleaned. Those on the right are cleaned up!
+ For example: The names to the left of the arrow are the original, those on the right are cleaned up!
 
  > MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3 => Malo - Suavecito.mp3
 
@@ -38,14 +31,14 @@
  > SWV - I'm So Into You-1992-It's about time.mp3 => SWV - I'm So Into You.mp3
 
 
-# USAGE: 
+## USAGE: 
 
 Two modes:
  
-1.  Simulation - test it out
+1.  Simulation - give it a spin without making any changes
 2.  Update - performs actual non-destructive update - requires specifying root directory. 
     Also requires creating a directory called "Source" under the root dir as well as a 
-    directory called "Renamed".  Please put the files to be cleaned under the source directory
+    directory called "Renamed".  Please put the files to be cleaned under the "Source" directory
 
 
 Simulation
