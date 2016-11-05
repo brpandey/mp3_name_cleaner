@@ -12,17 +12,16 @@
 
  Straightforward script written in Elixir, using Elixir Streams, Enums, and Regexs
 
- Cleans up mp3 file names given the assumptions:
+ Performs a non-destructive update copy of the original file set with cleaned up names
+
+ Also provides support for title-casing, whitespace trimming, 
+ extraneous info removal e.g. text in parens or brackets or curly braces
+
+ The script *cleans* up mp3 file names given the assumptions:
  
  - [x]  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
  - [x]  The Artist names and Song names are generally first.
  - [x]  The file contains a .mp3 suffix
-
- Does a non-destructive update copy of the original file set 
- with cleaned up names
-
- Also provides support for title-casing, whitespace trimming, 
- extraneous info removal e.g. text in parens or brackets or curly braces
 
  For example: 
 
