@@ -2,7 +2,7 @@
 
  Many aeons ago I was the Content Ingestion Program Manager for the inaugural [AmazonMP3](http://www.amazonmp3.com) service setting up the music service with its first 2 million tracks over the course of a year.
  
- I worked with digital music aggregators (e.g. CDBaby, Ioda, Naxos, The Orchard), the big labels (e.g. Warner, Sony) to get this done.
+ I worked with digital music aggregators (e.g. [CDBaby](http://www.cdbaby.com/), , Naxos, The Orchard), the big labels (e.g. Warner, Sony) to get this done.
 
  And to this day, I still love and use MP3s!  :sparkles:
 
@@ -14,9 +14,9 @@
 
  Cleans up mp3 file names given the assumptions:
  
- *  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
- *  The Artist names and Song names are generally first.
- *  The file contains a .mp3 suffix
+ 1.  The song info types e.g. Artist Name, Song Title, Album Name, Year are delimited by a hyphen
+ 2.  The Artist names and Song names are generally first.
+ 3.  The file contains a .mp3 suffix
 
  Does a non-destructive update copy of the original file set 
  with cleaned up names
@@ -26,8 +26,7 @@
 
  For example: 
 
- The names to the left of the arrow are uncleaned
- Those on the right are cleaned names.
+ The names to the left of the arrow are uncleaned. Those on the right are cleaned up!
 
  > MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3 => Malo - Suavecito.mp3
 
@@ -67,4 +66,6 @@ Update
 
 
 Thank you!
-Bibek Pandey :metal:
+
+Bibek Pandey 
+:metal:
