@@ -1,4 +1,5 @@
-# MP3NameCleaner ![MP3](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqE2YYr3xNsYoIJnRYPJRRXKjNWcC8uMlBv-FgpXd4SD11z09auQ)
+# MP3NameCleaner 
+![MP3](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqE2YYr3xNsYoIJnRYPJRRXKjNWcC8uMlBv-FgpXd4SD11z09auQ)
 
  Many aeons ago I was the Music Ingestion Program Manager for the inaugural [AmazonMP3](http://www.amazonmp3.com) service setting up the new music service with its first 2 million tracks over the course of a year.
  
