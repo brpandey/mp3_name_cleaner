@@ -44,8 +44,9 @@ Two modes:
 
 Simulation
 
-```$ ./mp3_name_cleaner --simulate "MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3 Toto - Africa-1982.mp3"
-%{"MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3" => "Malo - Suavecito.mp3",
+```$ ./mp3_name_cleaner --simulate "MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3 Toto - Africa-1982.mp3"```
+
+```%{"MALO - SUAVECITO -LIVE AUDIENCE - 1972.mp3" => "Malo - Suavecito.mp3",
   "Toto - Africa-1982.mp3" => "Toto - Africa.mp3"}```
 
 Update
