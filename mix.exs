@@ -2,16 +2,14 @@ defmodule MP3NameCleaner.Mixfile do
   use Mix.Project
 
   def project do
-    [
-      app: :mp3_name_cleaner,
-      version: "0.0.1",
-      name: "MP3NameCleaner",
-      elixir: "~> 1.2",
-      build_embedded: Mix.env() == :prod,
-      start_permanent: Mix.env() == :prod,
-      escript: [main_module: MP3NameCleaner],
-      deps: deps
-    ]
+    [app: :mp3_name_cleaner,
+     version: "0.0.1",
+     name: "MP3NameCleaner",
+     elixir: "~> 1.2",
+     build_embedded: Mix.env == :prod,
+     start_permanent: Mix.env == :prod,
+     escript: [main_module: MP3NameCleaner],
+     deps: deps]
   end
 
   # Configuration for the OTP application
